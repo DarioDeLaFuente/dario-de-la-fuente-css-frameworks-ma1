@@ -1,0 +1,6 @@
+/**
+A mixin 
+**/
+@mixin card-border() {
+  @extend .rounded, .border-3, .border, .h-0, .pt-100, .mb-2;
+}

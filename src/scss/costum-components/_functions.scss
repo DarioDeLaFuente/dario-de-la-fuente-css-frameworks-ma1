@@ -1,0 +1,9 @@
+/**
+A colour functions
+**/
+$color: (
+  navbar-brand-color: #463f3a,
+);
+@function getColour($colour) {
+  @return map-get($color, $colour);
+}

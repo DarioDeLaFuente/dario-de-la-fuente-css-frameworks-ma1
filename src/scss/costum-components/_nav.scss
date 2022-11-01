@@ -1,0 +1,17 @@
+.navbar-brand {
+  color: getColour(navbar-brand-color);
+  font-size: 36px;
+  font-weight: 400;
+}
+.navbar-nav .nav-link {
+  color: getColour(navbar-brand-color);
+  font-size: 15px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.navbar-toggler {
+  border: none;
+  &:focus {
+    box-shadow: none;
+  }
+}

@@ -1,4 +1,7 @@
+@import "costum-components/mixins";
+@import "overrides/variables";
+@import "overrides/utilites";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "partials/nav";
-@import "partials/variables";
-@import "partials/layout";
+@import "costum-components/nav";
+@import "costum-components/variables";
+@import "costum-components/functions";

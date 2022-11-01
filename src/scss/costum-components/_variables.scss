@@ -1,0 +1,67 @@
+:root {
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 226, 226, 226;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 195, 44, 114;
+  --bs-light-rgb: 244, 243, 238;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+}
+body {
+  @extend .d-flex, .flex-column, .h-100;
+  margin: 0;
+}
+.navbar {
+  --bs-navbar-toggler-border-color: #00000000;
+  --bs-navbar-toggler-border-color: #0000;
+  --bs-navbar-active-color: #c32c72;
+}
+
+/**
+A @extend 4 the nav reponsiv 
+**/
+.nav__reponsiv {
+  @extend .position-absolute, .position-lg-relative, .start-0, .top-100, .w-100;
+}
+
+/**
+A @extend 4 the light box 
+**/
+.bg-light__box {
+  @extend .bg-light;
+  @include card-border();
+}
+
+/**
+A @extend 4 the danger box 
+**/
+.bg-danger__box {
+  @extend .bg-white, .border-danger;
+  @include card-border();
+}
+
+/**
+A @extend 4 the white box 
+**/
+.bg-white__box {
+  @extend .bg-danger, .border-white;
+  @include card-border();
+}
+
+/**
+A @extend 4 the sticky footer
+**/
+.footer__sticky {
+  @extend .w-100,
+    .py-4,
+    .position-lg-absolute,
+    .position-relative,
+    .bottom-0,
+    .start-50,
+    .translate-middle-x;
+}
