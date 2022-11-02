@@ -15,7 +15,9 @@
 *body {
   @extend .d-flex, .flex-column, .min-vh-100;
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
+
 .navbar {
   --bs-navbar-toggler-border-color: #00000000;
   --bs-navbar-toggler-border-color: #0000;
