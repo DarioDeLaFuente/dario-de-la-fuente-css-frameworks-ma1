@@ -6979,7 +6979,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex, body {
+.d-flex, * body {
   display: flex !important;
 }
 
@@ -7260,7 +7260,7 @@ textarea.form-control-lg {
   height: 75% !important;
 }
 
-.h-100, body {
+.h-100 {
   height: 100% !important;
 }
 
@@ -7276,7 +7276,7 @@ textarea.form-control-lg {
   height: 100vh !important;
 }
 
-.min-vh-100 {
+.min-vh-100, * body {
   min-height: 100vh !important;
 }
 
@@ -7288,7 +7288,7 @@ textarea.form-control-lg {
   flex-direction: row !important;
 }
 
-.flex-column, body {
+.flex-column, * body {
   flex-direction: column !important;
 }
 
@@ -10907,7 +10907,7 @@ textarea.form-control-lg {
   --bs-body-bg-rgb: 255, 255, 255;
 }
 
-body {
+* body {
   margin: 0;
 }
 

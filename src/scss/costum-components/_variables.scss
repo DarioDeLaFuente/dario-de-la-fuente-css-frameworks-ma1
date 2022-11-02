@@ -12,8 +12,8 @@
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
 }
-body {
-  @extend .d-flex, .flex-column, .h-100;
+*body {
+  @extend .d-flex, .flex-column, .min-vh-100;
   margin: 0;
 }
 .navbar {
